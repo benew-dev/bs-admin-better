@@ -33,8 +33,6 @@ const Login = () => {
         callbackUrl: callBackUrl ? parseCallbackUrl(callBackUrl) : "/admin",
       });
 
-      console.log("Error Login", error);
-
       if (error) {
         toast.error(error.message || "Échec de connexion");
         setIsLoading(false);
