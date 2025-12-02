@@ -1,6 +1,6 @@
 "use client";
 
-import React, { memo, useContext, useEffect } from "react";
+import React, { memo } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useSession } from "@/lib/auth-client";
